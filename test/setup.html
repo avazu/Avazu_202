@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://go.jj.com/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Setup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>ppc_network_name</td>
+	<td>ppc n1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>ppc_network_name</td>
+	<td>ppc n2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>ppc_network_id</td>
+	<td>label=ppc n1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>ppc_account_name</td>
+	<td>ppc n1 - account 1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>document.forms[1].elements[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>ppc_network_id</td>
+	<td>label=ppc n1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>ppc_account_name</td>
+	<td>ppc n1 - account 2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>document.forms[1].elements[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>ppc_network_id</td>
+	<td>label=ppc n2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>ppc_account_name</td>
+	<td>ppc n1 - account 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>ppc_account_name</td>
+	<td>ppc n2 - account 1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>document.forms[1].elements[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=#2 Aff Networks</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aff_network_name</td>
+	<td>aff n1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aff_network_name</td>
+	<td>aff n2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=#3 Aff Campaigns</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aff_campaign_name</td>
+	<td>aff n1 - campaign 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aff_campaign_url</td>
+	<td>http://go.jj.com/test/affn1c1.php</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aff_campaign_payout</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aff_campaign_name</td>
+	<td>aff n2 - campaign 1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='aff_campaign_rotate' and @value='1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aff_campaign_url</td>
+	<td>http://go.jj.com/test/affn2c1.php</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>aff_campaign_rotate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>aff_campaign_payout</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_cloaking</td>
+	<td>label=On by default</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=#4 Landing Pages</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_id</td>
+	<td>label=aff n1 - campaign 1 · $1.00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>landing_page_nickname</td>
+	<td>aff n1 - campaign 1 - lp 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>landing_page_url</td>
+	<td>http://go.jj.com/test/affn1c1-lp1.php</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='landing_page_type' and @value='1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>landing_page_nickname</td>
+	<td>alp 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>landing_page_url</td>
+	<td>http://go.jj.com/test/alp1.php</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_id</td>
+	<td>label=aff n2 - campaign 1 · $2.00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>landing_page_nickname</td>
+	<td>aff n2 - campaign 1 - lp 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>landing_page_url</td>
+	<td>http://go.jj.com/test/affn2c1-lp1.php</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=#5 Text Ads</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_id</td>
+	<td>label=aff n1 - campaign 1 · $1.00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_name</td>
+	<td>aff n1 - campaign 1 - ad 1(dl or lp)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_headline</td>
+	<td>affn1c1-ad1-headline</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_description</td>
+	<td>Direct Link Setup, or Simple Landing Page Setup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_display_url</td>
+	<td>http://a.com/affn1c1-ad1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='text_ad_type' and @value='1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>landing_page_id</td>
+	<td>label=alp 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_name</td>
+	<td>alp 1 - ad 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_headline</td>
+	<td>alp 1 - ad 1 - headline</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_description</td>
+	<td>Advanced Landing Page Setup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_display_url</td>
+	<td>http://b.com/alp1-ad1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_id</td>
+	<td>label=aff n2 - campaign 1 · $2.00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='aff_campaign_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_name</td>
+	<td>aff n2 - campaign 1 - ad 1(dl or lp)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_headline</td>
+	<td>affn2c1-ad1-headline</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_description</td>
+	<td>Direct Link Setup, or Simple Landing Page Setup</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>text_ad_display_url</td>
+	<td>http://a.com/affn2c1-ad1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Add']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=#6 Get LP Code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Simple Landing Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//option[@value='1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_id</td>
+	<td>label=aff n1 - campaign 1 · $1.00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='aff_campaign_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>landing_page_id</td>
+	<td>label=aff n1 - campaign 1 - lp 1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_id</td>
+	<td>label=aff n2 - campaign 1 · $2.00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='aff_campaign_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>landing_page_id</td>
+	<td>label=aff n2 - campaign 1 - lp 1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='landing_page_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=#6 Get LP Code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Advanced Landing Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>landing_page_id</td>
+	<td>label=alp 1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_id_1</td>
+	<td>label=aff n2: aff n2 - campaign 1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@onclick='get_adv_landing_code();']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=#7 Get Links</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_id</td>
+	<td>label=aff n1 - campaign 1 · $1.00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='aff_campaign_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>method_of_promotion</td>
+	<td>label=Direct Linking</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>text_ad_id</td>
+	<td>label=aff n1 - campaign 1 - ad 1(dl or lp)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>ppc_network_id</td>
+	<td>label=ppc n1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>ppc_account_id</td>
+	<td>label=ppc n1 - account 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cpc_dollars</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>c1</td>
+	<td>affn1c1ad1c1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>c2</td>
+	<td>affn1c1ad1c2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>method_of_promotion</td>
+	<td>label=Landing Page</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>landing_page_id</td>
+	<td>label=aff n1 - campaign 1 - lp 1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='landing_page_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>text_ad_id</td>
+	<td>label=aff n1 - campaign 1 - ad 1(dl or lp)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='text_ad_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>click_cloaking</td>
+	<td>label=On - Override Campaign Default</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='tracking_form']/table/tbody/tr[9]/td[2]/select/option[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cpc_dollars</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>c1</td>
+	<td>affn1c1lp1ad1c1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>c2</td>
+	<td>affn1c1lp1ad1c2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_network_id</td>
+	<td>label=aff n2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>aff_campaign_id</td>
+	<td>label=aff n2 - campaign 1 · $2.00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='aff_campaign_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>landing_page_id</td>
+	<td>label=aff n2 - campaign 1 - lp 1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>text_ad_id</td>
+	<td>label=aff n2 - campaign 1 - ad 1(dl or lp)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='text_ad_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>click_cloaking</td>
+	<td>label=Off - Overide Campaign Default</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='tracking_form']/table/tbody/tr[9]/td[2]/select/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>ppc_network_id</td>
+	<td>label=ppc n2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>ppc_account_id</td>
+	<td>label=ppc n2 - account 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cpc_dollars</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>c1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>c2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='tracker_type' and @value='1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>landing_page_id</td>
+	<td>label=alp 1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='landing_page_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>text_ad_id</td>
+	<td>label=alp 1 - ad 1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='text_ad_id']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>ppc_network_id</td>
+	<td>label=ppc n1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>ppc_account_id</td>
+	<td>label=ppc n1 - account 2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='ppc_account_id']/option[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cpc_dollars</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>c1</td>
+	<td>alp1ad1c1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

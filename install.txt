@@ -1,0 +1,25 @@
+INSTALL
+
+0 pls use the following version
+
+.1 mongodb 1.8+ (must)
+.2 php 5.3+ (5.2 not tested)
+
+
+1 changes in php.ini:
+
+.1 extension=php_mongo.dll
+.2 replace "\xampp\..." with "d:\xampp\..."
+.3 download php mongo driver and extract php_mongo.dll to xampp\php\ext\
+(The above is for windows os, linux needs changes according page http://php.net/manual/en/mongo.installation.php)
+.4 changes timezone as needed(need to display the right time in admin interface)
+      ;Europe/Berlin
+      date.timezone = Asia/Shanghai
+.5 支持中文
+default_charset = "utf-8"
+
+2 add mongo user for auth when connecting
+>use admin
+>db.addUser("admin", "iiiiii")
+
+3 update 202-config.php with the new created user and mongo server address, and the expected database name(will be created automaticly if not exsits)

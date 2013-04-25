@@ -1,0 +1,25 @@
+UPDATE / BUG FIX HISTORY
+
+
+2011/05/16  enhance
+------------------
+Db.php中upsertById和updateOne用findandmodify命令来实现为原子操作
+
+
+2011/05/12  enhance
+------------------
+修改Db.php和Cousor.php, 检查和注释不可用的api
+
+改NameCache为NameCatcher, 取消缓存功能（面向后台应用，用户量小，对性能提升作用有限；但需要将数据放入全局变量并可能带来数据不一致问题），现在作为获取doc名称值的统一访问入口
+
+
+2011/04/22 fix
+------------------
+Cursor.php中未使用的函数中有一条语句语法错，导致某些环境下不能运行（报错环境为linux 64，php5.2），在我的windows环境中未出现（windows 7 64bit，xampp 1.7.4（php 5.3），mongodb1.8+）
+
+Group Overview中group by c1出错，原因是click advance字段映射时未覆盖group overview引进的c1, c2, c3, c4
+
+
+gpx.php没做类型转换带来的bug （int)
+
+一处函数名command应该用update替换错误
