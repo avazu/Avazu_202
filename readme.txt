@@ -1,4 +1,6 @@
-Avazu202 is an open source implementation based on the popular open source tracking tool Prosper 202. We have restructured the code base of Prosper 202, bringing in a DAO layer (Data Access Objects), seperating the business logics of Prosper202 from the data access actions, to make the code more scalable from the development point of view. On top of that we have also migrated the code base from MySQL to MongoDB, so that Avazu202 is cluster-compatible and supported for also high volumes of clicks.
+Avazu202 is an open source implementation based on the popular open source tracking tool Prosper 202. We have restructured the code base of Prosper 202, bringing in a DAO layer (Data Access Objects), seperating the business logics of Prosper202 from the data access actions, to make the code more scalable from the development point of view. On top of that we have also migrated the code base from MySQL to MongoDB, so that Avazu202 is cluster-compatible and supported for also high volumes of clicks. 
+
+If you intend to become our publishers or have questions regarding this project, please contact: opensource@avazu.net
 
 Some test results of our implementation:
 selenium tests
