@@ -1,13 +1,13 @@
 INSTALL
 
-0 pls use the following version
+Please have the following environment setup before you continue with Avazu 202 installation:
+1 mongodb must be 1.8+
+2 php 5.3+ (5.2 not tested)
+3 php mongo extention should be 1.1.1
 
-.1 mongodb 1.8+ (must)
-.2 php 5.3+ (5.2 not tested)
 
-
+Steps to do for the installation:
 1 changes in php.ini:
-
 .1 extension=php_mongo.dll
 .2 replace "\xampp\..." with "d:\xampp\..."
 .3 download php mongo driver and extract php_mongo.dll to xampp\php\ext\
@@ -22,4 +22,6 @@ default_charset = "utf-8"
 >use admin
 >db.addUser("admin", "iiiiii")
 
-3 update 202-config.php with the new created user and mongo server address, and the expected database name(will be created automaticly if not exsits)
+*user name and password could be self-defined.
+
+3 update 202-config.php with the newly created user and mongo server address, and the expected database name (database name will be created automatically if it doesnt exsit)

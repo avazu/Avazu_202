@@ -112,7 +112,7 @@ if ($success != true) {
 	<tr>
 		<th style="text-align: right;">MongoDB Version:</th>
 		<td>
-			<? $mongodb_version = db_version();
+			<? $mongodb_version = 1.8;
 			$html['mongodb_version'] = htmlentities($mongodb_version, ENT_QUOTES, 'UTF-8');
 			echo $html['mongodb_version']; ?>
 		</td>
