@@ -9,20 +9,20 @@ class DU {
 	//用于调试错误的情况
 	//todo remove this check when online
 	static function die_if_empty($a) {
-		if (!is_array($a)) {
-			return;
-		}
-		foreach ($a as $k => $v) {
-			//if ($v != 0 && $v != array() && empty($v)) {
-			if (preg_match('/(user_tracking_domain|aff_campaign_url_[2345])/', $k)) {
-				continue;
-			} //确认非异常情况
-
-			if ($v === null || $v === '') {
-				self::dump($a, __FUNCTION__);
-				die("**************not allowed empty value for $k****************");
-			}
-		}
+//		if (!is_array($a)) {
+//			return;
+//		}
+//		foreach ($a as $k => $v) {
+//			//if ($v != 0 && $v != array() && empty($v)) {
+//			if (preg_match('/(user_tracking_domain|aff_campaign_url_[2345])/', $k)) {
+//				continue;
+//			} //确认非异常情况
+//
+//			if ($v === null || $v === '') {
+//				self::dump($a, __FUNCTION__);
+//				die("**************not allowed empty value for $k****************");
+//			}
+//		}
 	}
 
 	//调试临时使用，性能不好
